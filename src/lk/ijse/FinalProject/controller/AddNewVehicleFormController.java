@@ -53,7 +53,7 @@ public class AddNewVehicleFormController {
         loadAllData();
         SetVehicleValidation();
     }
-
+    //Regex Patterns
     private void SetVehicleValidation() {
         VehicleIdPattern = Pattern.compile("V[0-9][0-9][0-9]");
         VehicletypePattrn = Pattern.compile("^[A-Z][a-zA-Z]{3,}(?: [A-Z][a-zA-Z]*){0,2}$");
